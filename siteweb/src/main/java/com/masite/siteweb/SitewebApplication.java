@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.masite.siteweb.student.Student;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class SitewebApplication {
 
 	public static void main(String[] args) {
@@ -28,17 +28,17 @@ public class SitewebApplication {
 //	public List<String> hello() {
 //		return List.of("Hello","world");
 //	}
-	@GetMapping
-	public List<Student> hello() {
-		return List.of(
-				new Student(
-				1L,
-				"almahdi",
-				"mad@gmail.com",
-				LocalDate.of(2021,Month.AUGUST,5),
-				45
-				)
-				);
-	}
+//	@GetMapping
+//	public List<Student> hello() {
+//		return List.of(
+//				new Student(
+//				1L,
+//				"almahdi",
+//				"mad@gmail.com",
+//				LocalDate.of(2021,Month.AUGUST,5),
+//				45
+//				)
+//				);
+//	}
 
 }
